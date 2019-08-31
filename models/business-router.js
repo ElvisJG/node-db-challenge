@@ -41,6 +41,7 @@ router.get('/:id/tasks', (req, res) => {
     });
 });
 
+// POST 4000/api/projects
 router.post('/', (req, res) => {
   db('projects')
     .insert(req.body)
@@ -59,6 +60,7 @@ router.post('/', (req, res) => {
     });
 });
 
+// POST 4000/api/resources
 router.post('/resources', (req, res) => {
   db('resources')
     .insert(req.body)
@@ -77,6 +79,7 @@ router.post('/resources', (req, res) => {
     });
 });
 
+// POST 4000/api/tasks
 router.post('/tasks', (req, res) => {
   db('tasks')
     .insert(req.body)
