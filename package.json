@@ -1,0 +1,35 @@
+{
+  "name": "node-db-challenge-sprint",
+  "version": "1.0.0",
+  "description": "Sprint for Node DB",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElvisJG/node-db-challenge.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "knex",
+    "js",
+    "javascript",
+    "sqlite3"
+  ],
+  "author": "Elvis Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElvisJG/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/ElvisJG/node-db-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.20.1",
+    "knex": "^0.19.3",
+    "knex-cleaner": "^1.3.0",
+    "nodemon": "^1.19.1",
+    "sqlite3": "^4.1.0"
+  }
+}
